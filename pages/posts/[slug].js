@@ -1,12 +1,7 @@
-import PostHeader from "../../components/posts/post-header";
+import PostContent from "../../components/posts/post-detail/post-content";
+import PostHeader from "../../components/posts/post-detail/post-header";
 
-function PostPage() {
-  return (
-    <>
-      <PostHeader />
-      {/* <PostDetail /> */}
-      <h1>Post Page</h1>
-    </>
-  );
+function PostDetailPage() {
+  return <PostContent />;
 }
-export default PostPage;
+export default PostDetailPage;
